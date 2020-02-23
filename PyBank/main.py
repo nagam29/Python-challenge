@@ -80,7 +80,6 @@ print(next_v)
 sum_change=0
 for z in range(0,85):
     change=int(next_v[z]) - int(current_v[z])
-    #print(change)
     sum_change=sum_change + change
 print(sum_change)
 # reference round function : https://www.w3schools.com/python/ref_func_round.asp
